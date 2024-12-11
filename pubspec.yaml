@@ -1,0 +1,48 @@
+name: mytgd_app
+description: "A new Flutter project."
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+environment:
+  sdk: '^3.5.0'
+  
+dependencies:
+  flutter:
+    sdk: flutter
+  logger: ^1.4.0
+  shared_preferences: ^2.0.15
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - images/28468-removebg-preview.png
+    - images/8262263.jpg
+    - images/Akreditasi PT.jpg
+    - images/alexander-shatov-mr4JG4SYOF8-unsplash.jpg
+    - images/foto.jpg
+    - images/igor-omilaev-eGGFZ5X2LnA-unsplash.jpg
+    - images/kenny-eliason-1-aA2Fadydc-unsplash.jpg
+    - images/logo_tgd-removebg-preview.png
+    - images/terkini1.jpg
+    - images/terkini2.jpg
+    - images/terkini3.jpg
+    - images/kampus1.jpg
+    - images/kampus2.jpg
+    - images/kampus3.jpg
+    - images/sloganTGD.jpg
+    - images/Pembayaran.jpg
+    - images/Sprofil.jpg
+    - images/STMIKTrigunaDharma.png
+
+fonts:
+  - family: Poppins
+    fonts:
+      - asset: fonts/Poppins-Regular.ttf
